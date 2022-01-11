@@ -1,0 +1,15 @@
+{
+  "name": "@song940/cloudflare",
+  "version": "0.0.0",
+  "description": "Cloudflare API in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloudflare",
+    "javascript"
+  ],
+  "author": "Lsong <song940@gmail.com>",
+  "license": "MIT"
+}
