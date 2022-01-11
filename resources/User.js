@@ -1,6 +1,6 @@
-const Tokens = require('./tokens');
+const Tokens = require('./Tokens');
 
-class Users {
+class User {
   constructor(cf) {
     this.cf = cf;
     this.tokens = new Tokens(cf);
@@ -13,4 +13,4 @@ class Users {
   }
 }
 
-module.exports = Users;
+module.exports = User;

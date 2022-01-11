@@ -1,15 +1,18 @@
 {
   "name": "@song940/cloudflare",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Cloudflare API in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "keywords": [
     "cloudflare",
     "javascript"
   ],
   "author": "Lsong <song940@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  }
 }

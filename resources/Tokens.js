@@ -4,13 +4,13 @@ class Tokens {
     this.cf = cf;
   }
   list() {
-
+    return this.cf.get('/user/tokens');
   }
-  get() {
-
+  get(id) {
+    return this.cf.get(`/user/tokens/${id}`);
   }
   edit() {
-
+    
   }
   del() {
 

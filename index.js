@@ -1,8 +1,8 @@
-const HTTP = require('./lib/http');
-const User = require('./lib/User');
-const Zones = require('./lib/Zones');
-const Accounts = require('./lib/Accounts');
-const Memberships = require('./lib/Memberships');
+const HTTP = require('./http');
+const User = require('./resources/User');
+const Zones = require('./resources/Zones');
+const Accounts = require('./resources/Accounts');
+const Memberships = require('./resources/Memberships');
 
 class Cloudflare extends HTTP {
   constructor({ email, key, token, api = 'https://api.cloudflare.com/client/v4' }) {
